@@ -1,0 +1,62 @@
+SUMMARY OF HNC in Computer Programming
+FELIX LANZALACO 1999
+
+I gained a merit for object programming in this course. For writing an Object Orientated Database with a graphic user interface in Turbo Pascal
+
+COBOL
+
+I understand that this is best used for batch file processing and is quite high level.
+It can involve writing a suite of separate programs that then become part of a programming system involving a lot of commands for file manipulation.
+I did some of the HNC exercises that allowed me for the first time to feel I had created a suite of file processing commands. (P)
+I understand the different data types, structure and conditional commands.
+I can use Microsoft Cobol Version 4 to do this with its trace debugger.
+
+COMMUNCIATIONS
+
+I did the sections on reports as they allowed me to produce very official looking documents.(P)
+
+SSADM
+
+I understand this is the government formal method for creating the the middle conceptual layer in three layer database design.
+
+I did an exercise on the layered flowcharts down to logical level. (P)
+I understand the following.
+The data dictionary comes from this
+Normalization (RDA) is a way of separating the important relations out of data for a relational database.
+You create entity models to represent the entities and relations in a diagram
+Entity function matrix's shows how the relations or processes affect the entities.
+Entity life histories is a diagrammatic way of showing the Entity function matrix
+Data Access Diagrams are diagrams for showing how queries will be made through entities.
+Decision tables help to unravel the results of how factors in a system interact
+I have not studied the contents of SD2 greatly yet but it appears to be methods for making the SD1 data more formal presentation.
+
+APPLIED MATHS IN HNC
+
+Boolean algebra. I found this interesting and completed an exercise booklet (P)
+I have also attempted the sheets covering the following.
+
+1:	Sets and venn diagrams, set builder notation, number types
+2: 	Modular arithmetic, clock arithmetic, number bases with conversions and operations, 		signed numbers, two's complement, 
+3:	Boolean algebra laws, commutative, associative, distributive, unit and zero, absorption, 		complement, identity, idempotence, De Morgans. Truth tables, logic networks, switching 		circuits, equivalence proofs, conjunction and disjunction of terms, and, not, nand, or, nor.
+4:	Functions, domains, graphs, solution sets, trapezoidal rule, problem solving.
+5:	matrices, operations, transformations, inverse, matrice algebra, augmented  operations 		to solve simultaneous equations 
+
+UCR
+
+As I build, upgrade and reconfigure Pc systems as a hobby I am experienced in using dos commands.
+
+SOFTWARE ENGINEERING - DEVELOPMENT LIFE CYCLE.
+
+I am now very familiar with structured programming on PC Borland Turbo Pascal and Think Pascal on the Macintosh , It's data types, expressions, structure, procedures, units, objects,  programming errors due to bad boolean expressions, testing, loops, scoping, data structures etc.
+I have attempted an HNC project using Objects libraries for menus, windows, advanced data manipulation (P). And I feel I can handle the real thing. 
+
+As my flatmate is in second year Computer Science. I can study university material. This has taken me beyond the Pascal Requirements of the HNC project. I am studying carefully the more advanced topics of the Elliot Koffman text such as recursion, linked-lists, variant records, Big-O Algorithm analysis and Indexed sort and search techniques.
+I have been studying foundations which is an algebra of logic. Once mastered you can see if a program wil be able to work without doing any coding.
+I now realise I not ready for object programming and my attitude now is to be minimal and try not to even use built in Pascal functions so I can learn proper design away from the editor.
+
+PACKAGES
+
+Can set up a one page spreadsheet on Clarisworks using standard methods and  functions.
+How to construct a relational database from an entity model and use combinations of relational query algebra commands such as project, select, union, difference and Cartesian to navigate through relations.
+Word processor experience with Wordperfect for Dos, cut and paste, oulines, headers, footers, tables, macros, document summary.
+Studying Mulimedia programming. Can create Interconnected Hypercard stacks with sound, buttons, graphics and video. 

@@ -1,0 +1,60 @@
+OVERLAY.DOC
+===========
+
+{               Copyright 1990 TechnoJock Software, Inc.               }
+{                          All Rights Reserved                         }
+{                         Restricted by License                        }
+
+This file details the Toolkit unit dependancies. In other words, the units
+used by each Toolkit unit. This information is important when you want to
+overlay Toolkit units.
+
+If you enable the OVERLAY compiler directive in the TOTFLAGS.INC file, you
+must manually call the initialization procedure for each unit. Every Toolkit
+unit has an initialization procedure, and this procedure name is consistently
+the unit name minus the TOT prefix plus the characters "INIT". For example,
+the initialization procedures for the TOTFAST and TOTSYS units are FASTINIT
+and SYSINIT, respectively.
+
+Listed below are the unit dependancies:
+
+totSYS   - none
+
+totLOOK  - totSYS
+
+totREAL  - none
+
+totINPUT - none
+
+totFAST  - totSYS, totLOOK, totINPUT
+
+totWIN   - totSYS, totLOOK, totINPUT, totFAST, totSTR, totMISC
+
+totMSG   - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totIO1, totREAL
+
+totLINK  - totREAL, totINPUT, totSTR
+
+totLIST  - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totREAL, totIO1, totLINK
+
+totDIR   - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totIO1, totREAL, totLINK, totDATE, totMSG, totIO2
+
+totIO1   - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totREAL
+
+totIO2   - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totIO1, totREAL, totLINK, totDATE, totMSG
+
+totIO3   - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totIO1, totREAL, totLINK, totDATE, totMSG, totIO2
+
+totMENU  - totSYS, totLOOK, totINPUT, totFAST, totMISC, totWIN, totSTR,
+           totIO1, totREAL, totLINK
+
+totSTR   - totREAL, totINPUT
+
+totDATE  - totSYS, totREAL, totINPUT, totLOOK, totSTR
+
+totMISC  - totFAST, totSTR
